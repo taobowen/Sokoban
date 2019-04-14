@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="box.css">
+		<title>推箱子</title>
+	</head>
+	<body>
+		<canvas id="canvas" width="800" height="800">
+		</canvas>
+		<div class="message" id="message" style="text-align:center;"></div>
+		<img id="road" src="./image/road.jpg" style="display:none">
+		<img id="wall" src="./image/wall.jpg" style="display:none">
+		<img id="box" src="./image/box.jpg" style="display:none">
+		<img id="end" src="./image/end.jpg" style="display:none">
+		<img id="humanup" src="./image/humanup.jpg" style="display:none">
+		<img id="humandown" src="./image/humandown.jpg" style="display:none">
+		<img id="humanright" src="./image/humanright.jpg" style="display:none">
+		<img id="humanleft" src="./image/humanleft.jpg" style="display:none">
+		<img id="blank" src="./image/blank.jpg" style="display:none">
+		<div class="button">
+			<input type="button" name="上一关" value="上一关" onclick="level(-1)">
+			<input type="button" name="重玩" value="重玩" onclick="level(0)">
+			<input type="button" name="下一关" value="下一关" onclick="level(1)">
+		</div>
+	</body>
+	<script type="text/javascript" src="map.js" charset="UTF-8"></script>  <!--存放表示关卡的二维数组-->
+	<script type="text/javascript" src="box.js" charset="UTF-8"></script>
+</html>
