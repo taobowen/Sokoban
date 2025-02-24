@@ -1,12 +1,8 @@
-# 2019年前端星计划
+## Description
 
-这是360星计划校招选拔的综合挑战题
-
-## 题目描述
-
-用 JavaScript 实现一个推箱子游戏
+Use JavaScript to implement a box-pushing game
 
 ![](https://p3.ssl.qhimg.com/t01a01fe1b96d05edcd.png)
 
-## 功能简介
-游戏实现了关卡的选择功能，有通关提示，并且可以提供了相应的接口文件来添加或编辑关卡。
+## Functional Introduction
+The game implements the level selection function, has clearance tips, and provides corresponding interface files to add or edit levels.
